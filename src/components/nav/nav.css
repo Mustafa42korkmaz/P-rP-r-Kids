@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-nav{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #6E98BA;
+   height: 80px;
+   padding-top: 25px;
+}
+
+.container-nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-nav a:hover{
+    padding-left: 9px;
+    width: 100px;
+    background-color: #C5D7ED;
+    margin-bottom: 20px;
+    border-radius: 5px;
+   
+}
